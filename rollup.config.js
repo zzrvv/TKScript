@@ -76,6 +76,19 @@ const scriptConfig = [
       injectCss: false,
     },
   },
+  {
+    name: "Devtools",
+    meta: {
+      input: "./meta/blank.ts",
+      output: "./dist/meta/devtools.meta.js",
+      metaFile: "./packages/devtools/meta.json",
+    },
+    script: {
+      input: "./packages/devtools/src/index.ts",
+      output: "./dist/devtools.user.js",
+      injectCss: false,
+    },
+  },
 ];
 
 export default [

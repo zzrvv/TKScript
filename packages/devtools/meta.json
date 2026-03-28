@@ -1,0 +1,13 @@
+{
+  "name": "Remove Debugger Interceptor",
+  "namespace": "https://github.com/WindrunnerMax/TKScript",
+  "version": "1.0.0",
+  "description": "移除调试器拦截器",
+  "author": "Czy",
+  "match": ["http://*/*", "https://*/*"],
+  "supportURL": "https://github.com/WindrunnerMax/TKScript/issues",
+  "license": "GPL License",
+  "installURL": "https://github.com/WindrunnerMax/TKScript",
+  "run-at": "document-start",
+  "grant": [ "unsafeWindow"]
+}
